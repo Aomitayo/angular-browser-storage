@@ -1,0 +1,29 @@
+{
+  "author": "",
+  "name": "angular-browser-storage-demo",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.5",
+    "grunt-contrib-jshint": "~0.7.0"
+  },
+  "devDependencies": {
+    "karma-mocha": "~0.1.1",
+    "karma-spec-reporter": "0.0.8",
+    "grunt-karma": "~0.6.2",
+    "mocha": "~1.17.0",
+    "karma-chai": "0.0.2",
+    "karma": "~0.10.9",
+    "karma-phantomjs-launcher": "~0.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "engines": {
+    "node": "0.10.10"
+  }
+}
