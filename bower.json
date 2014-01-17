@@ -5,7 +5,7 @@
 	"authors": [
 		"Adedayo Omitayo <adedayo.omitayo@flowswift.com>"
 	],
-	"description": "Demo",
+	"description": "HTML5 Storage with cookie fallback",
 	"keywords": [
 	],
 	"license": "MIT",

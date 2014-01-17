@@ -2,7 +2,7 @@
   "author": "",
   "name": "angular-browser-storage-demo",
   "version": "0.0.0",
-  "description": "",
+  "description": "HTML5 Storage with cookie fallback",
   "homepage": "",
   "dependencies": {
     "grunt": "~0.4.1",
