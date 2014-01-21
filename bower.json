@@ -1,24 +1,24 @@
 {
-	"name": "angular-browser-storage-demo",
-	"version": "0.0.0",
-	"main": "./dist/browser-storage.js",
-	"authors": [
-		"Adedayo Omitayo <adedayo.omitayo@flowswift.com>"
-	],
-	"description": "HTML5 Storage with cookie fallback",
-	"keywords": [
-	],
-	"license": "MIT",
-	"ignore": [
-		"**/.*",
-		"node_modules",
-		"bower_components",
-		"test",
-		"tests"
-	],
-	"dependencies": {
-		"angular":"~1.2.0"
-	},
-	"devDependencies": {
-	}
+  "name": "angular-browser-storage-demo",
+  "version": "0.0.0",
+  "main": "./dist/browser-storage.js",
+  "authors": [
+    "Adedayo Omitayo <adedayo.omitayo@flowswift.com>"
+  ],
+  "description": "HTML5 Storage with cookie fallback",
+  "keywords": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.9"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.9"
+  }
 }

@@ -19,6 +19,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
+	grunt.loadNpmTasks('grunt-karma');
 
 	/**
 	Function that wraps everything to allow dynamically setting/changing grunt options and config later by grunt task. This init function is called once immediately (for using the default grunt options, config, and setup) and then may be called again AFTER updating grunt (command line) options.
@@ -97,10 +98,6 @@ module.exports = function(grunt) {
 			karma: {
 				unit: {
 					configFile: 'karma.conf.js',
-					singleRun: true
-				},
-				e2e: {
-					configFile: 'karma-e2e.conf.js',
 					singleRun: true
 				}
 			},
