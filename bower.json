@@ -1,6 +1,6 @@
 {
   "name": "angular-browser-storage-demo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./dist/browser-storage.js",
   "authors": [
     "Adedayo Omitayo <adedayo.omitayo@flowswift.com>"
