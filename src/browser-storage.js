@@ -132,7 +132,7 @@ function BrowserStorage(selectionOrder){
 	self.$$memory = self.stores.memory = new MemoryStorage();
 }
 
-BrowserStorage.prototype.$inject = ['selectionOrder'];
+BrowserStorage.$inject = ['selectionOrder'];
 
 BrowserStorage.prototype.getStore = function(selectionOrder){
 	var self = this;
@@ -175,7 +175,7 @@ BrowserStorage.prototype.key = function(index, selectionOrder){
 };
 
 angular.module('aomitayo.angular-browser-storage', [])
-.provider('BrowserStorage', [ function () {
+.provider('BrowserStorage', function () {
 	var provider = {
 		selectionOrder:['session', 'local', 'cookie', 'memory'],
 		$get: ['$injector', function($injector){
@@ -183,4 +183,4 @@ angular.module('aomitayo.angular-browser-storage', [])
 		}]
 	};
 	return provider;
-}]);
+});

@@ -1,7 +1,7 @@
 {
   "author": "",
   "name": "angular-browser-storage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "HTML5 Storage with cookie fallback",
   "homepage": "",
   "dependencies": {
